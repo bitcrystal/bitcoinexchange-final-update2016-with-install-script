@@ -6,11 +6,11 @@ $database_password = 'fickdiekackwurstfickenscheisse3';      // the password to 
 $database_name = 'bitcoinexchange';  // the name of the database being used
 
 //coins settings
-$init_feebee_account=false;
+$init_feebee_account=false; // init feebee account is not important for you at the momment later you get the details!
 $used_coins=array(); // here set your trade coins
-$used_coins[0]=array("Dogecoin","Bitcrystal","Litecoin"); 
-$used_coins[1]=array("BitQuark","Bitcrystal","Karmacoin");
-$used_coins[2]=array("Bitcoin","Bitcrystal","Pandacoin");
+$used_coins[0]=array("Dogecoin","Bitcrystal","Litecoin");  // 	BITCRY/DOGE 	BITCRY/LTC
+$used_coins[1]=array("BitQuark","Bitcrystal","Karmacoin"); // 	BTCRY/BTQ 	BTCRY/KARMA
+$used_coins[2]=array("Bitcoin","Bitcrystal","Pandacoin");  // 	BITCRY/BTC 	BTCRY/PANDA
 $used_coins_length=count($used_coins);
 
 //install settings
