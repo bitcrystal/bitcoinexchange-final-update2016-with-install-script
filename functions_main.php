@@ -161,4 +161,23 @@ function get_root_path($file)
 	$str = $str . '/' . $file;
 	return $str;
 }
+
+function myscandir($dir)
+{
+	$files = array();
+	$i = 0;
+	if ($handle = opendir($dir)) {
+
+    		while (false !== ($entry = readdir($handle))) {
+
+        		if ($entry != "." && $entry != "..") {
+				$files[$i] = $entry;
+				$i++;
+        		}
+    		}
+
+    		closedir($handle);
+	}
+	return $files;
+}
 ?>

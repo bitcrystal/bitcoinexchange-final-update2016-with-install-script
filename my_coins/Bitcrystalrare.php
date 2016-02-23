@@ -1,8 +1,8 @@
 <?php
 require_once('my_coin.php');
 $coin=new my_coin();
-$coin->set_name("Bitcrystalx");
-$coin->set_prefix("BTCRYX");
+$coin->set_name("Bitcrystalrare");
+$coin->set_prefix("BITCRYR");
 $coin->set_fee(0.0000002);
 $coin->set_feebee($coin->getName());
 $coin->set_buy_fee(false);
