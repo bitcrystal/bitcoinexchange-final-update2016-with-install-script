@@ -4,6 +4,7 @@ WWW_DIR="/var/www/bitcoinexchange-final"
 UID_CURRENT_USER=$(id -u)
 CURRENT_USER=$USER
 CURRENT_DIR=$HOME
+#github
 mkdir configs_coins_files
 cp $CURRENT_DIR/.karma/karma.conf configs_coins_files
 cp $CURRENT_DIR/.bitcoin/bitcoin.conf configs_coins_files
